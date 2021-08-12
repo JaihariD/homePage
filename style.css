@@ -607,7 +607,10 @@ overflow:hidden;
     cursor:pointer;
     transition:all .7s;
      }
-
+.boxTurn:not(:hover) .boxTurn-front
+ { 
+    transition:all .7s;
+     }
 .boxTurn-back
 {  backface-visibility:hidden;
     content:"";
@@ -640,7 +643,10 @@ overflow:hidden;
     cursor:pointer;
     transition:all .7s;
      } 
-
+.boxTurn:not(:hover) .boxTurn-back
+ { 
+    transition:all .7s;
+     } 
 
 
 
